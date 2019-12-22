@@ -1,0 +1,48 @@
+h1{
+
+	color:red;
+	border-style:solid;
+
+}
+a:link{
+	color: red;
+}
+button:hover{
+	background-color: green;
+}
+a:link{
+	color: red;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: pink;
+}
+a:active{
+color: blue;
+}
+body {
+	background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),Linear-gradient(127deg, black, black 70.71%),
+Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+<div id="header">
+	<img id="logo" src="res/logo.png">
+
+	<ul class="menu">
+		<li><a href="home.html" class="menu-item">home </li>
+
+	
+	<li><a href="courses.html" class="menu-item"> courses</li>
+	
+	<li> <a href="contact.html" class="menu-item">contact </a></li>
+		
+</ul>
+</div>
+.menu{
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	width: 100%;
+	  
