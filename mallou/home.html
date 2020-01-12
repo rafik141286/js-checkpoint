@@ -3,6 +3,9 @@
 <head>
 	<title> home </title>
 	<link rel="stylesheet" href="css/style1.CSS">
+	<script src= https://code.jquery.com/jquery-3.4.1.min.js> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
 	<div id="header">
@@ -24,10 +27,33 @@
 	</div>
 <div id= "image3">
 	</div>
+
+	<div class="courses">
+		<h2 style="color: white">Courses</h2>
+		<div class="images">
+			<div class="contain">
+				<img src="res/img1.png">
+				<button class="btn" onclick="OModal()">Show More </button>
+			</div>
+			<div class="contain">
+				<img src="res/img2.png">
+				<button class="btn" onclick="OModal()">Show More </button>
+			</div>
+			<div class="contain">
+				<img src="res/img3.png">
+				<button class="btn"onclick="OModal()">Show More </button>
+			</div>
+		</div>
+	</div>
 <div id="video"> 
 	<p>more about go my code</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MkLog_27S6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+    <div id="ex1" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
 </body>
 <script src="m.js"></script>
 </html>

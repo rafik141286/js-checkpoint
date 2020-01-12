@@ -1,6 +1,6 @@
 
-alert ("it's just the beginning");
-console.log("it's just the beginning");
+//alert ("it's just the beginning");
+//console.log("it's just the beginning");
 var x=5;
 var y=3;
 var z=2;
@@ -39,3 +39,8 @@ console.log (myArray);
 console.log (myArray[3]);
 function mean (a,b,c){return ((a+b+c)/3);}
 console.log (mean(7,14,21));
+$(".test").css({"font-size":"20px","background-color":"black"})
+
+function OModal() {
+ $('#ex1').modal('open');
+ }
